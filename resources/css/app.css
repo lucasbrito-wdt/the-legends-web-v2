@@ -1,0 +1,327 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Patua+One|Creepster|Kaushan+Script|Fruktur|Aclonica);
+
+body {
+    background: #232323 !important;
+}
+
+.bg-content {
+    padding: 15px;
+    background: #fff;
+    margin: -5px;
+    padding-top: 5px;
+}
+
+.bg-content .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.bg-border {
+    border: 15px solid transparent;
+    -moz-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    -webkit-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    -o-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    border-image: url(../images/bg-content/border-content.png) 15 round !important;
+    margin-bottom: 15px;
+    padding: 0px !important;
+}
+
+.bg-top {
+    margin-top: 130px;
+}
+
+.bg-headline {
+    color: #fff;
+    line-height: 32px;
+    font-family: "Aclonica", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    background: url(../images/bg-content/title-background-green.jpg);
+    position: relative;
+    height: 24px;
+    background-repeat: repeat-x;
+    margin: -5px;
+    padding-left: 10px;
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Likely future */
+    display: flex;
+    align-items: center;
+}
+
+.bg-title {
+    background: #2a2a2a;
+    height: 35px;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    line-height: 3px;
+    margin-bottom: 0px;
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Likely future */
+}
+
+.bg-title-small {
+    border-style: solid;
+    border-width: 5px;
+    -moz-border-image: url(../images/bg-content/bg-sidebar-border.png) 5 stretch;
+    -webkit-border-image: url(../images/bg-content/bg-sidebar-border.png) 5
+        stretch;
+    -o-border-image: url(../images/bg-content/bg-sidebar-border.png) 5 stretch;
+    border-image: url(../images/bg-content/bg-sidebar-border.png) 5 fill stretch;
+}
+
+.bg-title-sidebar {
+    background: #2a2a2a !important;
+    height: 60px;
+    width: 100%;
+    margin: 15px 0px -1px 0px;
+    border-radius: 5px;
+    padding-top: 0 !important;
+    margin-top: 15px !important;
+}
+
+.bg-title,
+.bg-title-sidebar {
+    border-width: 17px;
+    border-style: solid;
+    padding: 0px;
+    -webkit-border-image: url(../images/bg-content/bg-sidebar-border.png) 17
+        round !important; /* Safari 3.1-5 */
+    -o-border-image: url(../images/bg-content/bg-sidebar-border.png) 17 round !important; /* Opera 11-12.1 */
+    border-image: url(../images/bg-content/bg-sidebar-border.png) 17 round !important;
+}
+
+.bg-title-sidebar {
+    border: 16px solid transparent;
+    padding: 0px;
+    padding-top: 10px;
+    background: #171717;
+    -webkit-border-image: url(../images/bg-content/bg-sidebar-content.png) 10%
+        round; /* Safari 3.1-5 */
+    -o-border-image: url(../images/bg-content/bg-sidebar-content.png) 10% round; /* Opera 11-12.1 */
+    border-image: url(../images/bg-content/bg-sidebar-content.png) 10% round;
+    color: #fff;
+}
+
+.bg-title h1,
+.bg-title-sidebar h1 {
+    font-family: "Lucida Calligraphy";
+    font-style: italic;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 4px;
+    font-size: 22px;
+    text-shadow: 1px 0px 0px #eccfa2, -1px 0px 0px #000, 0px 2px 0px #000,
+        0px -2px 0px #000;
+}
+
+.main-content {
+    border: 2px solid #55636c;
+    border-top: none;
+    padding: 15px;
+    background: #fdfdfd;
+}
+
+.main-content .bg-info {
+    width: 50%;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.newsheadline {
+}
+
+.newsheadline .newsheadlinebackground {
+    display: inline-block;
+    width: 100%;
+    background-image: url(../images/content/newsheadline_black.png);
+    position: relative;
+    height: 28px;
+    margin-bottom: 5px;
+    background-repeat: repeat-x;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.newsheadline .newsheadlinebackground .newsicon {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.newsheadline .newsheadlinebackground .newsicon img {
+    width: 32px;
+    height: 32px;
+}
+
+.newsheadline .newsheadlinebackground .newsheadlinedate {
+    font-size: 7pt;
+    color: white;
+    line-height: 30px;
+    float: left;
+    padding: 0px 3px;
+}
+
+.newsheadline .newsheadlinebackground .newsheadlinetext {
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+}
+
+.newsarticle {
+    display: table;
+    width: 100%;
+    clear: both;
+    padding: 0px 3px;
+}
+.newsarticle .newsarticletext {
+    font-family: Verdana, Arial, Times New Roman, sans-serif;
+    font-size: 10pt;
+}
+
+.newsarticle .newsarticleimg img {
+    float: right;
+}
+
+.carousel-caption {
+    bottom: 130px !important;
+}
+
+.carousel-caption h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+
+.carousel-caption h6 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 80px;
+    color: #c93b13;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+
+.carousel-caption p {
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+
+.carousel-caption a {
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    text-shadow: none;
+    text-transform: uppercase;
+    background: #c93b13;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+#gradient::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    height: 50px;
+    background: none;
+    background: -moz-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, rgba(255, 255, 255, 0)),
+        color-stop(80%, rgba(2, 2, 2, 1))
+    );
+    background: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgb(2, 2, 2) 80%
+    );
+    background: -o-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: -ms-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 0%,
+        rgb(14, 14, 14) 80%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#000',GradientType=0 );
+}
+
+#gradient::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    height: 50px;
+    background: none;
+    background: -moz-linear-gradient(
+        bottom,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, rgba(255, 255, 255, 0)),
+        color-stop(80%, rgba(2, 2, 2, 1))
+    );
+    background: -webkit-linear-gradient(
+        bottom,
+        rgba(255, 255, 255, 0) 0%,
+        rgb(2, 2, 2) 80%
+    );
+    background: -o-linear-gradient(
+        bottom,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: -ms-linear-gradient(
+        bottom,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 2, 2, 1) 80%
+    );
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0) 0%,
+        rgb(14, 14, 14) 80%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000',GradientType=0 );
+}

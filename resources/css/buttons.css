@@ -1,0 +1,117 @@
+/* Buttons */
+.sbutton-blue {
+    background: url(../images//buttons/sbutton.gif) no-repeat;
+}
+.sbutton-red {
+    background: url(../images//buttons/sbutton_red.gif) no-repeat;
+}
+
+.sbutton-green {
+    background: url(../images//buttons/sbutton_green.gif) no-repeat;
+}
+
+.sbutton-blue,
+.sbutton-red,
+.sbutton-green {
+    height: 27px;
+    width: 137px;
+    color: #eacea0;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border: 0px !important;
+    text-decoration: none;
+}
+
+.sbutton-blue:hover {
+    background: url(../images//buttons/sbutton-over.gif) no-repeat;
+}
+
+.sbutton-red:hover {
+    background: url(../images//buttons/sbutton_red_over.gif) no-repeat;
+}
+
+.sbutton-green:hover {
+    background: url(../images//buttons/sbutton_green_over.gif) no-repeat;
+}
+
+.sbutton-blue:hover,
+.sbutton-red:hover,
+.sbutton-green:hover {
+    border: 0px;
+    height: 27px;
+    width: 137px;
+    color: #eacea0;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #000;
+    border: 0px !important;
+}
+.sbutton-blue:focus,
+.sbutton-red:focus,
+.sbutton-green:focus {
+    outline: none;
+}
+
+.sbutton-blue[disabled] {
+    background: url(../images//buttons/sbutton-over.gif) no-repeat;
+}
+.sbutton-red[disabled] {
+    background: url(../images//buttons/sbutton_red_over.gif) no-repeat;
+}
+.sbutton-green[disabled] {
+    background: url(../images//buttons/sbutton_green_over.gif) no-repeat;
+}
+.sbutton-blue-medium[disabled] {
+    background: url(../images//buttons/mediumbutton.gif) no-repeat;
+}
+
+.sbutton-blue[disabled],
+.sbutton-red[disabled],
+.sbutton-green[disabled],
+.sbutton-blue-medium[disabled] {
+    border: 0px;
+    height: 27px;
+    width: 137px;
+    color: #eacea0;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #000;
+    cursor: not-allowed;
+}
+
+.sbutton-blue-medium {
+    background: url(../images//buttons/mediumbutton.gif) no-repeat;
+    border: 0px;
+    height: 37px;
+    width: 150px;
+    color: #eacea0;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #000;
+}
+
+.sbutton-blue-medium:hover {
+    background: url(../images//buttons/mediumbutton-over.gif) no-repeat;
+    border: 0px;
+    height: 37px;
+    width: 150px;
+    color: #eacea0;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #000;
+}
+
+.sbutton-blue-medium:focus {
+    background: url(../images//buttons/mediumbutton-over.gif) no-repeat;
+    border: 0px;
+    height: 39px;
+    width: 152px;
+}
+
+.sbutton-top {
+    background: url(../images//bg-content/back-to-top.gif) no-repeat;
+    border: 0;
+    float: right;
+    height: 18px;
+    width: 18px;
+    margin-top: -8px;
+}

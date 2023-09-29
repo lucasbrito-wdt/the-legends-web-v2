@@ -1,0 +1,132 @@
+.menu {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 222px;
+    float: right;
+}
+.menu:after {
+    content: "";
+    background-image: url(../images/bg-content/box-bottom.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0px;
+    top: -15px;
+    height: 16px;
+    width: 223px;
+    display: table;
+    z-index: 11;
+}
+
+.menu:before {
+    content: "";
+    background-image: url(../images/bg-content/box-top.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0px;
+    height: 47px;
+    width: 222px;
+    display: -webkit-inline-box;
+    z-index: 11;
+}
+
+.menu-button {
+    background-image: url(../images/bg-content/button-background.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 222px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+.menu-button:hover {
+    background-image: url(../images/bg-content/button-background-over.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 222px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+.menu-icon {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    top: 5px;
+    left: 8px;
+}
+
+.menu-label {
+    position: absolute;
+    width: 55%;
+    left: 42px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#eccfa2),
+        to(#e4bd7f)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-family: "Lucida Calligraphy";
+    font-style: italic;
+    text-shadow: 1px 0px 0px #eccfa2, -1px 0px 0px #000, 0px 2px 0px #000,
+        0px -2px 0px #000;
+    font-weight: bold;
+    line-height: 46px;
+    font-stretch: expanded;
+    text-align: center;
+}
+
+.submenu {
+    background: #171717;
+    color: #fff;
+}
+
+.ul-sidebar {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    -webkit-padding-start: 0px;
+    padding: 13px;
+    list-style-type: none;
+}
+
+.ul-sidebar .nav-item {
+    border-bottom: 1px solid #fff;
+}
+
+.ul-sidebar .nav-item:last-child {
+    border-bottom: none;
+}
+
+.ul-sidebar .nav-item a {
+    color: #fff;
+}
+
+.sidebar-group .input-group-text {
+    background: #212529;
+    color: #fff;
+    border: 0;
+}
+
+.sidebar-group .form-control {
+    background: #212529;
+    border: none;
+}
+
+.sidebar-group .form-control:focus {
+    color: #fff;
+    background-color: #212529;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.sidebar-group .form-control:hover {
+    color: #fff;
+}

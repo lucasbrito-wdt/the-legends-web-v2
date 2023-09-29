@@ -1,0 +1,32 @@
+.notification-t {
+    border: 7px solid transparent;
+    -moz-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    -webkit-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    -o-border-image: url(../images/bg-content/border-content.png) 15 round
+        stretch;
+    border-image: url(../images/bg-content/border-content.png) 15 round !important;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.notification {
+    border-style: solid;
+    border-width: 8px 8px 8px 8px;
+    -moz-border-image: url(../images/bg-content/border-content.png) 15 15 15 15
+        stretch stretch;
+    -webkit-border-image: url(../images/bg-content/border-content.png) 15 15 15
+        15 stretch stretch;
+    -o-border-image: url(../images/bg-content/border-content.png) 15 15 15 15
+        stretch stretch;
+    border-image: url(../images/bg-content/border-content.png) 15 15 15 15
+        stretch stretch;
+}
+
+.notification-content {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: -3px;
+}
